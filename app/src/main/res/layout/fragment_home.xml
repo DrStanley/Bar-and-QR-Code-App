@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:inputType="textLongMessage"
+            android:hint="Enter message to Encode"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/generate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="Generate code" />
+
+        <ImageView
+            android:id="@+id/QR_code"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:id="@+id/Bar_code"
+            android:layout_width="250dp"
+            android:layout_height="200dp" />
+    </LinearLayout>
+</ScrollView>

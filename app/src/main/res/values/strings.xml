@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BarCode</string>
+    <string name="title_home">Encode</string>
+    <string name="title_dashboard">Scan</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
